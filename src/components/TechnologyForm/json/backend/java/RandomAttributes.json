@@ -1,0 +1,9 @@
+{
+  "Framework": [
+    "Spring"
+  ],
+  "Testes": [
+    "JUnit",
+    "Mockito"
+  ]
+}

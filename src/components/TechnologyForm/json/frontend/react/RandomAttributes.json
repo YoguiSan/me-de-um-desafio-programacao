@@ -1,0 +1,21 @@
+{
+  "Linguagem": [
+    "Javascript",
+    "Typescript"
+  ],
+  "Framework": [
+    "Gatsby",
+    "Next",
+    "Nenhum"
+  ],
+  "Gerenciador de pacotes": [
+    "npm",
+    "yarn"
+  ],
+  "Gerenciamento de estado": [
+    "Redux"
+  ],
+  "Testes": [
+    "Jest + Enzyme"
+  ]
+}
