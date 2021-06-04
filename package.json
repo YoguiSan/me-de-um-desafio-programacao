@@ -18,7 +18,8 @@
     "commit": "npm run lint:fix & git add . && git commit && git pull && git push",
     "push": "npm run commit",
     "merge:main": "git checkout main && git pull && git merge develop && git push && git checkout develop",
-    "merge:master": "npm run merge:main"
+    "merge:master": "npm run merge:main",
+    "deploy": "npm run build && cp -r dist/index.html dist/200.html && surge dist --domain me-de-um-desafio-programacao.surge.sh"
   },
   "license": "0BSD",
   "dependencies": {
