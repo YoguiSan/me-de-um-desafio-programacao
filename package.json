@@ -16,7 +16,9 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "commit": "npm run lint:fix & git add . && git commit && git pull && git push",
-    "push": "npm run commit"
+    "push": "npm run commit",
+    "merge:main": "git checkout main && git pull && git merge develop && git push && git checkout develop",
+    "merge:master": "npm run merge:main"
   },
   "license": "0BSD",
   "dependencies": {
