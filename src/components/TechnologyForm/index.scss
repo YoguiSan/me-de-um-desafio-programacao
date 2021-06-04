@@ -1,0 +1,8 @@
+$row-selector: '.bx--row';
+
+#technology-form {
+  padding: 1rem 0;
+  #{$row-selector} {
+    margin-bottom: .5rem;
+  }
+}

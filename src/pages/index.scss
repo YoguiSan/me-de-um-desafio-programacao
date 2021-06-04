@@ -1,0 +1,8 @@
+$tile-selector: '.bx--tile';
+
+#{$tile-selector} {
+  margin-bottom: 1rem;
+  b {
+    font-weight: bold;
+  }
+}

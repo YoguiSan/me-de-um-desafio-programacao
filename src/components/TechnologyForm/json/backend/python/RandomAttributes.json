@@ -1,0 +1,10 @@
+{
+  "Framework": [
+    "Django",
+    "Flask"
+  ],
+  "Testes": [
+    "PyTest",
+    "Robot"
+  ]
+}
